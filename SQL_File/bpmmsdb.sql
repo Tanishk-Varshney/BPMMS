@@ -43,11 +43,10 @@ CREATE TABLE `tblbpdetails` (
 --
 
 INSERT INTO `tblbpdetails` (`id`, `userId`, `memberId`, `systolic`, `diastolic`, `pulse`, `bpDateTime`, `postingTime`) VALUES
-(1, 1, 2, 126, 85, 98, NULL, '2023-02-11 17:52:29'),
-(2, 1, 1, 124, 84, 102, '2023-02-10T15:31', '2023-02-11 17:57:49'),
-(4, 1, 1, 134, 92, 108, '2023-02-12T13:20', '2023-02-13 16:47:53'),
-(5, 3, 5, 80, 120, 100, '2023-02-13T14:15', '2023-02-14 17:39:17'),
-(6, 3, 5, 90, 132, 112, '2023-02-12T16:15', '2023-02-14 17:39:37');
+(2, 1, 1, 124, 84, 102, '2024-02-10T15:31', '2024-02-11 17:57:49'),
+(4, 1, 1, 134, 92, 108, '2024-02-12T13:20', '2024-02-13 16:47:53'),
+(5, 3, 5, 80, 120, 100, '2024-02-13T14:15', '2024-02-14 17:39:17'),
+(6, 3, 5, 90, 132, 112, '2024-02-12T16:15', '2024-02-14 17:39:37');
 
 -- --------------------------------------------------------
 
@@ -69,9 +68,9 @@ CREATE TABLE `tblfamilymembers` (
 --
 
 INSERT INTO `tblfamilymembers` (`id`, `userId`, `memberName`, `memberRelation`, `memberAge`, `postingDate`) VALUES
-(1, 1, 'Amit Kumar', 'Brother', 27, '2023-02-08 18:47:03'),
-(2, 1, 'Garima Singh', 'Wife', 28, '2023-02-08 18:48:06'),
-(5, 3, 'Alina', 'Wife', 45, '2023-02-14 17:38:34');
+(1, 1, 'Amit Kumar', 'Brother', 27, '2024-02-08 18:47:03'),
+(2, 1, 'Garima Singh', 'Wife', 28, '2024-02-08 18:48:06'),
+(5, 3, 'Alina', 'Wife', 45, '2024-02-14 17:38:34');
 
 -- --------------------------------------------------------
 
@@ -93,8 +92,8 @@ CREATE TABLE `tbluserregistration` (
 --
 
 INSERT INTO `tbluserregistration` (`id`, `fullName`, `emailid`, `mobileNumber`, `loginPassword`, `regDate`) VALUES
-(1, 'Anuj Kumar', 'ak@test.com', 1425363625, 'Test@123', '2023-02-08 18:14:25'),
-(3, 'John Doe', 'john@test.com', 1234563210, 'Test@123', '2023-02-14 17:36:12');
+(1, 'Tanishk Varshney', 'tanishk@test.com', 1234567890, 'Test@123', '2024-02-08 18:14:25'),
+(3, 'John Doe', 'john@test.com', 1234563210, 'Test@321', '2024-02-14 17:36:12');
 
 --
 -- Indexes for dumped tables
